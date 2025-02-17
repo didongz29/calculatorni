@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temporary Email Service</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Temporary Email Generator</h2>
+        <button onclick="generateEmail()">Generate Email</button>
+
+        <h3>Your Temporary Email:</h3>
+        <p id="generated-email"></p>
+        <button onclick="checkInbox()">Check Inbox</button>
+
+        <h3>Inbox:</h3>
+        <div id="inbox">
+            <p>No new emails.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
